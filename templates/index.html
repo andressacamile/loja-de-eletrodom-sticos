@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Loja de Eletrodomésticos</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <form action="/cadastrar_cliente" method="post">
+        Nome: <input type="text" name="nome"><br>
+        Endereço: <input type="text" name="endereco"><br>
+        Email: <input type="text" name="email"><br>
+        <input type="submit" value="Cadastrar Cliente">
+    </form>
+
+    <h1>Cadastro de Produto</h1>
+    <form action="/cadastrar_produto" method="post">
+        Nome do Produto: <input type="text" name="nome_produto"><br>
+        Preço: <input type="text" name="preco"><br>
+        Quantidade: <input type="text" name="quantidade"><br>
+        <input type="submit" value="Cadastrar Produto">
+    </form>
+
+    <h1>Listar Clientes</h1>
+    <form action="/listar_clientes" method="get">
+        <input type="submit" value="Listar Clientes">
+    </form>
+
+    <h1>Listar Produtos</h1>
+    <form action="/listar_produtos" method="get">
+        <input type="submit" value="Listar Produtos">
+    </form>
+</body>
+</html>
+
